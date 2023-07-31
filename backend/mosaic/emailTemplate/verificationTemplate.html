@@ -1,0 +1,11 @@
+<form method='POST' >
+    {% csrf_token %}
+    <p>Hello from Behavioral Management!</p>
+    <fieldset>
+        {{form}}
+    </fieldset>
+
+    <div style="margin-top: 50px;">
+        <button class="btn btn-outline-info" type="submit">Request New Email</button>
+    </div>
+</form>
